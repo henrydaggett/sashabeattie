@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box; 
+}
+
 body {
   background-color: #e8e2d1;
   margin: 0;
@@ -10,7 +14,7 @@ header {
   height: 64px;
   display: flex;
   box-sizing: border-box;
-}
+} 
 
 aside {
   width: 64px !important;
@@ -19,6 +23,10 @@ aside {
   align-items: center;
   justify-content: center;
   border-right: 2px solid black;
+}
+
+h1, h2, p {
+  margin: 0;
 }
 
 .menu-button {
@@ -40,11 +48,31 @@ aside {
   color: white;
 }
 
+.main-button {
+  height: 48px;
+  border-radius: 48px;
+  padding-left: 32px;
+  padding-right: 32px;
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.main-button:hover {
+  background-color: rgba(0, 0, 0, 0.1) ;
+  color: black;
+}
+
 .flex {
   display: flex
 }
 
-.flex-between {
+.hflex {
   display: flex;
   flex: 1;
   flex-direction: row;
@@ -52,7 +80,15 @@ aside {
   justify-content: space-between;
 }
 
-.flex-center {
+.vflex {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cflex {
   display: flex;
   flex: 1;
   flex-direction: row;
