@@ -25,7 +25,7 @@ aside {
   border-right: 2px solid black;
 }
 
-h1, h2, p {
+h1, h2, h3, p {
   margin: 0;
 }
 
@@ -114,4 +114,9 @@ h1, h2, p {
 
 .border-b {
   border-bottom: 2px solid black;
+} 
+
+.space-0 {
+  margin: 0;
+  padding: 0;
 }
