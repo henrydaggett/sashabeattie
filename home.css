@@ -29,6 +29,16 @@ h1, h2, h3, p {
   margin: 0;
 }
 
+h3 {
+  font-size: 4rem;
+  line-height: 0.8;
+}
+
+ul > a {
+  padding: 12px 0;
+  display: flex;
+}
+
 .menu-button {
   height: 48px;
   width: 48px;
