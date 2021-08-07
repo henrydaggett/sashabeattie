@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 body {
@@ -14,7 +14,7 @@ header {
   height: 64px;
   display: flex;
   box-sizing: border-box;
-} 
+}
 
 aside {
   width: 64px !important;
@@ -25,15 +25,35 @@ aside {
   border-right: 2px solid black;
 }
 
+@media screen and (max-width: 600px) {
+  aside {
+    display: none;
+  }
+}
+
+picture {
+  flex-grow: 1;
+  background-image: url('Images/Home/hapa.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center
+}
+
+@media screen and (max-width: 600px) {
+  picture {
+    display: none;
+  }
+}
+
 h1, h2, h3, h4, p {
   margin: 0;
 }
 
 h1 {
-  font-size: 5vw; 
-  width: 70%; 
-  text-align: center; 
-  font-family: 'Times New Roman', Times, serif;
+  font-size: 5vw;
+  width: 70%;
+  text-align: center;
+  font-family: 'saolDisplay', Times, serif;
 }
 
 h3 {
@@ -45,22 +65,47 @@ h4 {
   font-size: 2rem;
 }
 
-ul > a {
+ul>a {
   padding: 12px 0;
   display: flex;
   text-decoration: none;
 }
 
-ul > a > p {
+ul>a>p {
   margin-right: 12px;
+}
+
+#project-container {
+  width: calc(60% - 140px);
+  flex-direction: column;
+  flex-shrink: 0;
+  position: relative;
+}
+
+@media screen and (max-width: 600px) {
+  #project-container {
+    width: 100%;
+  }
+}
+
+#project-list {
+  padding: 64px;
+  gap: 48px;
+  margin-bottom: 96px;
+  flex-direction: column;
+}
+
+@font-face {
+  font-family: saolDisplay;
+  src: url(Fonts/SaolDisplay-Regular.woff2);
 }
 
 .menu-button {
   height: 48px;
   width: 48px;
   border-radius: 50%;
-  background-color: transparent; 
-  color: black; 
+  background-color: transparent;
+  color: black;
   border: none;
   display: flex;
   align-items: center;
@@ -70,7 +115,7 @@ ul > a > p {
 }
 
 .menu-button:hover {
-  background-color: rgba(0, 0, 0, 0.1) ;
+  background-color: rgba(0, 0, 0, 0.1);
   color: white;
 }
 
@@ -90,18 +135,24 @@ ul > a > p {
 }
 
 .main-button:hover {
-  background-color: rgba(0, 0, 0, 0.1) ;
+  background-color: rgba(0, 0, 0, 0.1);
   color: black;
 }
 
 .spinner {
-  height: 140px; 
-  position: absolute; 
-  bottom: 48px; 
+  height: 140px;
+  position: absolute;
+  bottom: 48px;
   left: 48px;
   animation: spin 14s linear infinite;
 }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
 
 .flex {
   display: flex
@@ -149,7 +200,7 @@ ul > a > p {
 
 .border-b {
   border-bottom: 2px solid black;
-} 
+}
 
 .space-0 {
   margin: 0;
