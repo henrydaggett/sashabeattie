@@ -25,12 +25,6 @@ aside {
   border-right: 2px solid black;
 }
 
-@media screen and (max-width: 600px) {
-  aside {
-    display: none;
-  }
-}
-
 picture {
   flex-grow: 1;
   background-image: url('Images/Home/hapa.jpg');
@@ -39,9 +33,62 @@ picture {
   background-position: center
 }
 
-@media screen and (max-width: 600px) {
+nav {
+  padding-left: 12px;
+  padding-right: 24px;
+}
+
+ul > a {
+  color: black
+}
+
+ul > a:hover {
+  color: #7f4f38
+}
+
+ul > a > p {
+  margin-top: 4px
+}
+
+@media screen and (max-width: 1000px) {
   picture {
     display: none;
+  }
+  h1 {
+    font-size: 10vw
+  }
+  #project-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  aside {
+    display: none;
+  }
+  nav {
+    padding-right: 12px;
+  }
+  h1 {
+    font-size: 20vh;
+    width: 90%;
+  }
+}
+
+@font-face {
+  font-family: saolDisplay;
+  src: url(Fonts/SaolDisplay-Regular.woff2);
+}
+
+@import url('https://rsms.me/inter/inter.css');
+
+html {
+  font-family: 'Inter', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', sans-serif;
   }
 }
 
@@ -53,12 +100,16 @@ h1 {
   font-size: 5vw;
   width: 70%;
   text-align: center;
-  font-family: 'saolDisplay', Times, serif;
+  font-family: 'saolDisplay', serif;
+}
+
+h2 {
+  font-family: 'saolDisplay', serif;
 }
 
 h3 {
-  font-size: 4rem;
-  line-height: 0.8;
+  font-size: 3rem;
+  line-height: 1;
 }
 
 h4 {
@@ -82,12 +133,6 @@ ul>a>p {
   position: relative;
 }
 
-@media screen and (max-width: 600px) {
-  #project-container {
-    width: 100%;
-  }
-}
-
 #project-list {
   padding: 64px;
   gap: 48px;
@@ -95,9 +140,20 @@ ul>a>p {
   flex-direction: column;
 }
 
-@font-face {
-  font-family: saolDisplay;
-  src: url(Fonts/SaolDisplay-Regular.woff2);
+@media screen and (max-width: 600px) {
+  #project-container {
+    width: 100%;
+  }
+  #project-list {
+    padding: 32px 24px;
+  }
+  footer {
+    flex-direction: column;
+  }
+  footer>article:nth-child(3) {
+    border-top: 2px solid black;
+    border-left: unset;
+  }
 }
 
 .menu-button {
