@@ -52,8 +52,8 @@ a:hover {
     display: none;
   }
   h1 {
-    font-size: 6vw !important;
-    width: 80% !important;
+    font-size: 6.5vw !important;
+    width: 90% !important;
   }
   #project-container {
     width: 100% !important
@@ -68,7 +68,7 @@ a:hover {
     padding-right: 12px;
   }
   h1 {
-    font-size: 3vh !important;
+    font-size: 10vw !important;
     width: 90% !important;
   }
   h2 {
@@ -171,6 +171,31 @@ ul>a>p {
     border-top: 2px solid black;
     border-left: unset;
   }
+  .blue-smile {
+    height: 72px !important;
+    bottom: 84px !important;
+    right: 24px !important;
+  }
+  .thank-you {
+    height: 72px !important;
+    bottom: 24px !important;
+    right: 84px !important;
+  }
+}
+
+.blue-smile {
+  height: 96px;
+  position: absolute;
+  bottom: 120px;
+  right: 48px;
+  transform: rotate(20deg);
+}
+
+.thank-you {
+  height: 96px;
+  position: absolute;
+  bottom: 48px;
+  right: 120px;
 }
 
 .menu-button {
