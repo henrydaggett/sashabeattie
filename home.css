@@ -162,7 +162,7 @@ ul>a>p {
     width: 100%;
   }
   #project-list {
-    padding: 48px 24px;
+    padding: 48px 24px 96px 24px;
     gap: 32px;
   }
   footer {
@@ -181,6 +181,14 @@ ul>a>p {
     height: 72px !important;
     bottom: 24px !important;
     right: 84px !important;
+  }
+  .spinner {
+    height: 120px !important;
+    bottom: 24px !important;
+    left: 24px !important;
+  }
+  .main-button {
+    margin-top: unset !important;
   }
 }
 
