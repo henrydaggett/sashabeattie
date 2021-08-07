@@ -92,6 +92,7 @@ a:hover {
 @import url('https://rsms.me/inter/inter.css');
 html {
   font-family: 'Inter', sans-serif;
+  text-rendering: optimizeLegibility;
 }
 
 @supports (font-variation-settings: normal) {
