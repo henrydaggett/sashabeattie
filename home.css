@@ -131,7 +131,9 @@ h4 {
 }
 
 aside>div>p {
-  font-family: 'Migra-Regular', serif;
+  font-family: 'Migra', serif;
+  font-weight: 300;
+  letter-spacing: 0.6px;
 }
 
 ul>a {
