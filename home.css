@@ -85,20 +85,18 @@ a:hover {
 }
 
 @font-face {
-  font-family: saolDisplay;
-  src: url(Fonts/SaolDisplay-Regular.woff2);
+  font-family: Migra;
+  src: url(Fonts/Migra-Extralight.woff);
 }
 
-@import url('https://rsms.me/inter/inter.css');
+@font-face {
+  font-family: Manrope;
+  src: url(Fonts/Manrope-ExtraBold.woff);
+}
+
 html {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Manrope', sans-serif;
   text-rendering: optimizeLegibility;
-}
-
-@supports (font-variation-settings: normal) {
-  html {
-    font-family: 'Inter var', sans-serif;
-  }
 }
 
 h1, h2, h3, h4, p {
@@ -106,10 +104,11 @@ h1, h2, h3, h4, p {
 }
 
 h1 {
-  font-size: 5vw;
+  font-size: 6vw;
   width: 70%;
   text-align: center;
-  font-family: 'saolDisplay', serif;
+  font-family: 'Migra', serif;
+  font-weight: 200;
 }
 
 h2 {
@@ -117,7 +116,9 @@ h2 {
   width: 60% !important;
   margin-bottom: 48px;
   text-align: center;
-  font-family: 'saolDisplay', serif;
+  font-family: 'Migra', serif;
+  font-weight: 200;
+  letter-spacing: 0.8px;
 }
 
 h3 {
@@ -130,7 +131,7 @@ h4 {
 }
 
 aside>div>p {
-  font-family: 'SaolDisplay-Regular', serif;
+  font-family: 'Migra-Regular', serif;
 }
 
 ul>a {
