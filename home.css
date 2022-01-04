@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #e8e2d1;
+  background-color: #ebe7dc;
   margin: 0;
   text-align: left;
   box-sizing: border-box;
@@ -85,8 +85,8 @@ a:hover {
 }
 
 @font-face {
-  font-family: Migra;
-  src: url(Fonts/Migra-Extralight.woff);
+  font-family: Tiempos;
+  src: url(Fonts/TiemposHeadline-Light.ttf);
 }
 
 @font-face {
@@ -107,16 +107,16 @@ h1 {
   font-size: 6vw;
   width: 70%;
   text-align: center;
-  font-family: 'Migra', serif;
+  font-family: 'Tiempos', serif;
   font-weight: 200;
 }
 
-h2 {
+.text-lg {
   font-size: 1.8rem;
   width: 60% !important;
   margin-bottom: 48px;
   text-align: center;
-  font-family: 'Migra', serif;
+  font-family: 'Tiempos', serif;
   font-weight: 200;
   letter-spacing: 0.8px;
 }
@@ -131,7 +131,7 @@ h4 {
 }
 
 aside>div>p {
-  font-family: 'Migra', serif;
+  font-family: 'Tiempos', serif;
   font-weight: 300;
   letter-spacing: 0.6px;
 }
