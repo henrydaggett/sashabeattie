@@ -85,17 +85,17 @@ a:hover {
 }
 
 @font-face {
-  font-family: Tiempos;
-  src: url(Fonts/TiemposHeadline-Light.ttf);
+  font-family: Clearface;
+  src: url(Fonts/Clearface-Bold.ttf);
 }
 
 @font-face {
-  font-family: Manrope;
-  src: url(Fonts/Manrope-ExtraBold.woff);
+  font-family: Assistant;
+  src: url(Fonts/Assistant-Variable.ttf);
 }
 
 html {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Assistant', sans-serif;
   text-rendering: optimizeLegibility;
 }
 
@@ -104,11 +104,11 @@ h1, h2, h3, h4, p {
 }
 
 h1 {
-  font-size: 6vw;
-  width: 70%;
+  font-size: 4.5vw;
+  width: 85%;
   text-align: center;
-  font-family: 'Tiempos', serif;
-  font-weight: 200;
+  font-family: 'Clearface', serif;
+  font-weight: 700;
 }
 
 .text-lg {
@@ -116,12 +116,14 @@ h1 {
   width: 60% !important;
   margin-bottom: 48px;
   text-align: center;
-  font-family: 'Tiempos', serif;
+  font-family: 'Clearface', serif;
   font-weight: 200;
   letter-spacing: 0.8px;
 }
 
 h3 {
+  font-family: 'Clearface', serif;
+  font-weight: 800;
   font-size: 3rem;
   line-height: 1;
 }
@@ -131,7 +133,7 @@ h4 {
 }
 
 aside>div>p {
-  font-family: 'Tiempos', serif;
+  font-family: 'Clearface', serif;
   font-weight: 300;
   letter-spacing: 0.6px;
 }
@@ -155,19 +157,26 @@ ul>a>p {
 }
 
 #project-list {
-  padding: 64px;
-  gap: 48px;
   margin-bottom: 96px;
   flex-direction: column;
+}
+
+#project-list a {
+  padding: 64px;
+  border-bottom: 2px solid black;
+}
+
+#project-list a:hover {
+  background-color: #DD928A;
+  color: black;
 }
 
 @media screen and (max-width: 600px) {
   #project-container {
     width: 100%;
   }
-  #project-list {
+  #project-list a {
     padding: 48px 24px 96px 24px;
-    gap: 32px;
   }
   footer {
     flex-direction: column;
