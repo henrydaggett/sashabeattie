@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased; /* Chrome, Safari */
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -14,6 +16,10 @@ header {
   height: 64px;
   display: flex;
   box-sizing: border-box;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 100000;
 }
 
 aside {
@@ -23,6 +29,12 @@ aside {
   align-items: center;
   justify-content: center;
   border-right: 2px solid black;
+}
+
+footer {
+  background-color: #47B490;
+  min-height: 136px;
+  display: flex;
 }
 
 picture {
@@ -35,16 +47,16 @@ picture {
 
 nav {
   padding-left: 12px;
-  padding-right: 24px;
 }
 
 a {
-  font-size: 1.5rem;
-  color: black;
+  font-size: 2rem;
+  font-family: 'Clearface', serif;
+  color: #030405;
 }
 
 a:hover {
-  color: #7f4f38
+  color: black
 }
 
 @media screen and (max-width: 1000px) {
@@ -86,12 +98,15 @@ a:hover {
 
 @font-face {
   font-family: Clearface;
-  src: url(Fonts/Clearface-Bold.ttf);
+  font-weight: bold;
+  font-style: normal;
+  src: url(Fonts/Clearface-Bold.ttf) format(ttf);
 }
 
 @font-face {
   font-family: Assistant;
-  src: url(Fonts/Assistant-Variable.ttf);
+  font-style: normal;
+  src: url(Fonts/Assistant-Variable.ttf) format(ttf);
 }
 
 html {
@@ -100,6 +115,7 @@ html {
 }
 
 h1, h2, h3, h4, p {
+  color: #403838;
   margin: 0;
 }
 
@@ -108,33 +124,38 @@ h1 {
   width: 85%;
   text-align: center;
   font-family: 'Clearface', serif;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .text-lg {
   font-size: 1.8rem;
-  width: 60% !important;
+  width: 70% !important;
   margin-bottom: 48px;
   text-align: center;
-  font-family: 'Clearface', serif;
-  font-weight: 200;
   letter-spacing: 0.8px;
+  line-height: 1.5;
 }
 
 h3 {
   font-family: 'Clearface', serif;
-  font-weight: 800;
+  font-weight: bold;
   font-size: 3rem;
   line-height: 1;
+  margin-bottom: 0.5rem;
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-family: 'Clearface', serif;
+  color: #030405;
+  font-size: 2rem;
+}
+
+aside h4 {
+  font-size: 1.5rem !important;
 }
 
 aside>div>p {
-  font-family: 'Clearface', serif;
-  font-weight: 300;
+  font-size: 1.5rem;
   letter-spacing: 0.6px;
 }
 
@@ -144,9 +165,9 @@ ul>a {
   text-decoration: none;
 }
 
-ul>a>p {
-  margin-right: 12px;
-  margin-top: 4px;
+ul>a>div>p {
+  font-size: 1.5rem;
+  font-family: 'Assistant', sans-serif;
 }
 
 #project-container {
@@ -157,7 +178,6 @@ ul>a>p {
 }
 
 #project-list {
-  margin-bottom: 96px;
   flex-direction: column;
 }
 
@@ -221,23 +241,22 @@ ul>a>p {
   right: 120px;
 }
 
-.menu-button {
-  height: 48px;
-  width: 48px;
-  border-radius: 50%;
+.menu-links {
+  font-family: Clearface, serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding: 0 4rem;
+  border-left: 2px solid black;
   background-color: transparent;
   color: black;
-  border: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
-  transition-duration: 0.4s;
 }
 
-.menu-button:hover {
-  background-color: rgba(0, 0, 0, 0.1);
-  color: white;
+.menu-links:hover {
+  background-color: #DD928A;
+  color: black;
 }
 
 .main-button {
@@ -245,7 +264,8 @@ ul>a>p {
   border-radius: 48px;
   padding-left: 32px;
   padding-right: 32px;
-  background-color: transparent;
+  background-color: #FEA200;
+  font-weight: bold;
   border: 2px solid black;
   color: black;
   display: flex;
@@ -256,7 +276,7 @@ ul>a>p {
 }
 
 .main-button:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #FFB739;
   color: black;
 }
 
