@@ -106,7 +106,8 @@ a:hover {
 @font-face {
     font-family: 'clearfacebold';
     src: url('fonts/clearface_bold-webfont.woff2') format('woff2'),
-         url('fonts/clearface_bold-webfont.woff') format('woff');
+         url('fonts/clearface_bold-webfont.woff') format('woff'),
+         url('fonts/clearface_bold-webfont.ttf') format('ttf');
     font-weight: bold;
     font-style: normal;
 }
@@ -114,7 +115,7 @@ a:hover {
 @font-face {
   font-family: 'Assistant';
   font-style: normal;
-  src: url(fonts/Assistant-Variable.ttf) format(ttf);
+  src: url('fonts/Assistant-Variable.ttf') format('ttf');
 }
 
 html {
@@ -123,7 +124,7 @@ html {
 }
 
 h1, h2, h3, h4, p {
-  color: #403838;
+  color: #030406;
   margin: 0;
 }
 
@@ -256,7 +257,7 @@ ul>a>div>p {
   padding: 0 4rem;
   border-left: 2px solid black;
   background-color: transparent;
-  color: black;
+  color: #030405;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -284,7 +285,7 @@ ul>a>div>p {
 }
 
 .main-button:hover {
-  background-color: #FFB739;
+  background-color: #2A7FD9;
   color: black;
 }
 
