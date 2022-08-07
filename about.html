@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sasha Beattie's Portfolio</title>
   <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="about.css">
 </head>
 
 <body>
@@ -23,19 +24,53 @@
     </nav>
   </header>
 
-  <section class="border-b flex" style="height: calc(100vh - 136px); background-color: #DD928A; padding-top: 64px;">
+  <section class="flex" style="height: calc(100vh); background-color: #DD928A; padding-top: 64px;">
     <aside>
       <div class="flex" style="transform: rotate(270deg); -webkit-transform: rotate(270deg); align-items: center;">
         <p style="margin-right: 8px; flex-shrink: 0">A little bit</p>
         <h4 style="flex-shrink: 0;">about me</h4>
       </div>
     </aside>
-    <article class="cflex" style="flex-direction: column;">
-      hi
+
+    <article class="hflex">
+      <div class="border-r vflex" style="height: 100%; flex-grow: 2">
+        <div class="flex" style="padding: 24px; width: 100%; flex-grow: 1">
+          <!-- <img src="Images/About/smb.png" alt=""> -->
+          <div style="background-image: url('Images/About/smb.png'); background-position: center; background-repeat: no-repeat; background-size: cover; flex-grow: 1"></div>
+        </div>
+        <footer class="cflex border-t" style="background-color: unset; flex-grow: 0; width: 100%">
+          <div class="cflex" style="flex-direction: column">
+            <h4>Say Hello!</h4>
+            <a href="mailto:sashabeattie@gmail.com">sashabeattie@gmail.com</a>
+          </div>
+        </footer>
+      </div>
+
+      <section class="vflex" style="flex-grow: 3; height: 100%">
+        <article class="cflex" style="flex-grow: 1; flex-shrink: 0;">
+          <p style="width: 80%;">
+            Hello! I’m Sasha Mei-Li Beattie. I studied at Central Saint Martins where I received my Bachelor’s Degree in
+            Fashion Communication & Promotion. I am an image maker - whether that means graphic design, art direction,
+            illustration or all of the above! However, my focus is brand and digital design.
+            <br><br>
+            As far as hobbies go I enjoy reading fiction (nice covers are a plus), am a moderate gamer, a decent
+            snowboarder and an occasional unicyclist (it’s a long story) with a great appreciation for food, real and
+            fake.
+            <br><br>
+            I often get asked, “Where are you from?” The short answer is Hawaii, Alaska and England but I’m Scottish and
+            Taiwanese… Even I don’t get it sometimes, so I wrote a book about it called Hāpā, which investigates
+            concepts of identity and belonging in relation to being of mixed ethnic heritage - check it out here.
+          </p>
+        </article>
+        <footer class="cflex border-t" style="background-color: unset; flex-grow: 0; flex-shrink: 0; width: 100%">
+          <a href="https://www.linkedin.com/in/sasha-beattie/">LinkedIn</a>
+        </footer>
+      </section>
+
     </article>
   </section>
 
-  <footer style="background-color: #DD928A">
+  <!-- <footer style="background-color: #DD928A">
     <aside></aside>
     <article class="cflex" style="min-width: calc(60% - 140px); flex-shrink: 0;">
       <div class="cflex" style="flex-direction: column">
@@ -46,7 +81,7 @@
     <article class="border-l cflex" style="flex-grow: 1;">
       <a href="https://www.linkedin.com/in/sasha-beattie/">LinkedIn</a>
     </article>
-  </footer>
+  </footer> -->
 
   <script src="home.js">
   </script>
