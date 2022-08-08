@@ -243,6 +243,15 @@ ul>a>div>p {
   -webkit-transform: rotate(20deg);
 }
 
+.green-smile {
+  height: 150px;
+  position: absolute;
+  top: 120px;
+  left: 600px;
+  transform: rotate(340deg);
+  -webkit-transform: rotate(340deg);
+}
+
 .thank-you {
   height: 96px;
   position: absolute;
