@@ -4,11 +4,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
 body {
-  background-color: #ebe7dc;
+  background-color: #F0EDE6;
   margin: 0;
   text-align: left;
   box-sizing: border-box;
+  height: 100%;
+  overflow: auto;
 }
 
 header {
@@ -96,13 +103,6 @@ a:hover {
   }
 }
 
-/* @font-face {
-  font-family: 'Clearface';
-  font-weight: bold;
-  font-style: normal;
-  src: url(fonts/Clearface-Bold.ttf) format(ttf);
-} */
-
 @font-face {
     font-family: 'clearfacebold';
     src: url('fonts/clearface_bold-webfont.woff2') format('woff2'),
@@ -136,19 +136,25 @@ h1 {
   font-weight: bold;
 }
 
+h1.project-title {
+  font-size: 4rem;
+  text-align: left;
+  width: unset
+}
+
 .text-lg {
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   width: 70% !important;
   margin-bottom: 48px;
   text-align: center;
   letter-spacing: 0.8px;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 
 h3 {
   font-family: 'clearfacebold', serif;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 1;
   margin-bottom: 0.5rem;
 }
@@ -175,7 +181,7 @@ ul>a {
 }
 
 ul>a>div>p {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-family: 'Assistant', sans-serif;
 }
 
@@ -191,7 +197,7 @@ ul>a>div>p {
 }
 
 #project-list a {
-  padding: 64px;
+  padding: 56px 56px;
   border-bottom: 2px solid black;
 }
 
@@ -214,11 +220,7 @@ ul>a>div>p {
     border-top: 2px solid black;
     border-left: unset;
   }
-  .blue-smile {
-    height: 72px !important;
-    bottom: 84px !important;
-    right: 24px !important;
-  }
+
   .thank-you {
     height: 72px !important;
     bottom: 24px !important;
@@ -234,30 +236,36 @@ ul>a>div>p {
   }
 }
 
-.blue-smile {
-  height: 96px;
+.enjoy-green {
+  height: 160px;
   position: absolute;
-  bottom: 120px;
-  right: 48px;
-  transform: rotate(20deg);
-  -webkit-transform: rotate(20deg);
+  top: 18%;
+  left: 10%;
+}
+
+.nice-day {
+  height: 150px;
+  position: absolute;
+  bottom: 22%;
+  right: 5%;
+}
+
+.smile-blue {
+  height: 180px;
+  position: absolute;
+  bottom: 9%;
+  right: 10%;
 }
 
 .green-smile {
   height: 150px;
   position: absolute;
-  top: 120px;
-  left: 600px;
+  top: 32px;
+  right: -80px;
   transform: rotate(340deg);
   -webkit-transform: rotate(340deg);
 }
 
-.thank-you {
-  height: 96px;
-  position: absolute;
-  bottom: 48px;
-  right: 120px;
-}
 
 .menu-links {
   font-family: clearfacebold, serif;
@@ -304,6 +312,16 @@ ul>a>div>p {
   bottom: 48px;
   left: 48px;
   animation: spin 14s linear infinite;
+}
+
+.project-type {
+  border: 1px solid black;
+  border-radius: 48px;
+  padding: 8px 12px;
+  line-height: 1;
+  font-weight: bold;
+  font-size: 1.125;
+  margin-right: 8px;
 }
 
 @keyframes spin {

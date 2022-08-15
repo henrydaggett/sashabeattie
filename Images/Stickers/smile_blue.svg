@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98.35 98.35"><defs><style>.cls-1{fill:#77a1c3;}.cls-2{fill:#f6f6f6;}.cls-3{fill:#fff;}.cls-4{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:0.75px;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><circle class="cls-1" cx="49.18" cy="49.18" r="49.18"/><ellipse class="cls-2" cx="34.58" cy="35.72" rx="4.36" ry="9.51"/><path class="cls-3" d="M23.29,57.38a3.71,3.71,0,0,1-2.59,2.69,3.87,3.87,0,0,1-2,.06,3.19,3.19,0,0,1-1.66-.92,7.07,7.07,0,0,0,3.35-.1A7.64,7.64,0,0,0,23.29,57.38Z"/><path class="cls-3" d="M76,57.38a7.59,7.59,0,0,0,2.88,1.73,7,7,0,0,0,3.34.1,3.15,3.15,0,0,1-1.66.92,3.87,3.87,0,0,1-2-.06A3.74,3.74,0,0,1,76,57.38Z"/><circle class="cls-4" cx="49.18" cy="49.18" r="42.58"/><path class="cls-4" d="M20.48,59.61a30.47,30.47,0,0,0,58.32,0"/><ellipse class="cls-2" cx="64.22" cy="35.72" rx="4.36" ry="9.51"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="185.535" height="185.535" viewBox="0 0 185.535 185.535">
+  <g id="Layer_2" data-name="Layer 2" transform="translate(0 41.346) rotate(-16)">
+    <g id="Layer_1" data-name="Layer 1" transform="translate(0 0)">
+      <circle id="Ellipse_5" data-name="Ellipse 5" cx="75" cy="75" r="75" fill="#2a7fd9"/>
+      <ellipse id="Ellipse_6" data-name="Ellipse 6" cx="6.29" cy="13.72" rx="6.29" ry="13.72" transform="translate(46.328 40.488)" fill="#f6f6f6"/>
+      <path id="Path_12" data-name="Path 12" d="M26.057,57.38a5.352,5.352,0,0,1-3.737,3.881,5.583,5.583,0,0,1-2.885.087A4.6,4.6,0,0,1,17.04,60.02a10.2,10.2,0,0,0,4.833-.144A11.022,11.022,0,0,0,26.057,57.38Z" transform="translate(9.041 30.266)" fill="#fff"/>
+      <path id="Path_13" data-name="Path 13" d="M76,57.38a10.95,10.95,0,0,0,4.155,2.5,10.1,10.1,0,0,0,4.819.144,4.545,4.545,0,0,1-2.395,1.327,5.583,5.583,0,0,1-2.885-.087A5.4,5.4,0,0,1,76,57.38Z" transform="translate(40.323 30.266)" fill="#fff"/>
+      <circle id="Ellipse_7" data-name="Ellipse 7" cx="65.478" cy="65.478" r="65.478" transform="translate(9.522 9.522)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.75"/>
+      <path id="Path_14" data-name="Path 14" d="M20.48,59.61a43.958,43.958,0,0,0,84.137,0" transform="translate(13.208 32.68)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.75"/>
+      <ellipse id="Ellipse_8" data-name="Ellipse 8" cx="6.29" cy="13.72" rx="6.29" ry="13.72" transform="translate(91.767 40.488)" fill="#f6f6f6"/>
+    </g>
+  </g>
+</svg>
