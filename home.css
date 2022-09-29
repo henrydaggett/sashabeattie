@@ -326,6 +326,17 @@ ul>a>div>p {
   margin-right: 8px;
 }
 
+.project-badges {
+  background-color: #F0EDE6;
+  border-radius: 48px;
+  padding: 8px 12px;
+  line-height: 1;
+  font-weight: bold;
+  font-size: 1.125;
+  margin-right: 8px;
+  margin-top: 32px;
+}
+
 @keyframes spin {
   100% {
     -webkit-transform: rotate(360deg);
