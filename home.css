@@ -51,7 +51,10 @@ picture {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin: 1rem
+  margin: 1rem;
+  height: calc(100vh - 64px - 1rem);
+  position: sticky;
+  top: 64px;
 }
 
 nav {
@@ -193,6 +196,7 @@ ul>a>div>p {
   flex-grow: 1;
   flex-shrink: 0;
   position: relative;
+  min-height: 100vh;
 }
 
 #project-list {
@@ -323,7 +327,6 @@ ul>a>div>p {
   line-height: 1;
   font-weight: bold;
   font-size: 1.125;
-  margin-right: 8px;
 }
 
 .project-badges {
