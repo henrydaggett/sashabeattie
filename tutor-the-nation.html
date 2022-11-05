@@ -13,13 +13,23 @@
   <header>
     <aside></aside>
     <nav class="hflex">
-      <a href="index.html" class="hflex">
+      <a href="index.html" class="hflex" id="SB-logo">
         <img src="Images/logo_filled.svg" alt="sasha beattie logo" style="height: 40px">
       </a>
-      <div class="flex" style="height: 100%">
-        <a class="menu-links" href="/about.html">About me</a>
-        <a class="menu-links" style="text-decoration: underline" href="/work.html">Work</a>
+      <div class="flex hidden" style="height: 100%; margin-left: -12px;" id="mobile-menu-links">
+        <a class="menu-links mobile" href="/about.html">About me</a>
+        <a class="menu-links mobile" href="/work.html">Work</a>
       </div>
+      <div class="flex" style="height: 100%">
+        <a class="menu-links desktop" href="/about.html">About me</a>
+        <a class="menu-links desktop" href="/work.html">Work</a>
+      </div>
+      <button class="menu-button" id="menu-button" onclick="toggleMenu()">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+          <path d="M0 0h24v24H0V0z" fill="none" />
+          <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+        </svg>
+      </button>
     </nav>
   </header>
 
@@ -91,7 +101,8 @@
             Secondary Marks - “Bridget”
           </h4>
           <p style="font-size: 1.125rem; line-height: 1.5">
-            Bridget is the secondary logo mark for the brand - constructed using the H/smile and cutting the O in half to make
+            Bridget is the secondary logo mark for the brand - constructed using the H/smile and cutting the O in half
+            to make
             her
             eyes, she comes in two forms, colour block and logo-outline.
           </p>
@@ -106,13 +117,14 @@
         <div class="vflex border-r" style="padding: 24px; height: 500px; flex-grow: 1">
           <div style="height: 100%; width: 100%; background-color: #F7F2EE;"></div>
         </div>
-      
+
         <div style="padding: 48px; max-width: 50%;">
           <h4 class="" style="margin-bottom: 16px">
             Primary Colour Palette
           </h4>
           <p style="font-size: 1.125rem; line-height: 1.5">
-            Bold bright, almost primary colours create the base of the colour palette contrasted by full sections of black and white
+            Bold bright, almost primary colours create the base of the colour palette contrasted by full sections of
+            black and white
             - the colour palette is exciting, youthful and engaging.
           </p>
         </div>
@@ -130,11 +142,12 @@
             Stickers!
           </h4>
           <p style="font-size: 1.125rem; line-height: 1.5">
-            These hand drawn stickers are scattered throughout the website symbolise features of Tutor the Nation, from safeguarding
+            These hand drawn stickers are scattered throughout the website symbolise features of Tutor the Nation, from
+            safeguarding
             to confidence and of course we have sticker Bridget.
           </p>
         </div>
-      
+
         <div class="vflex" style="padding: 24px; height: 500px; flex-grow: 1">
           <div style="height: 100%; width: 100%; background-color: #F7F2EE;"></div>
         </div>
@@ -143,14 +156,15 @@
       <article class="flex border-b" style="width: 100%">
         <div class="vflex border-r" style="padding: 24px; height: 500px; flex-grow: 1; align-items: start;">
           <div style="max-width: 50%; text-align: left;">
-          <h4 class="" style="margin-bottom: 16px">
-            Stickers!
-          </h4>
-          <p style="font-size: 1.125rem; line-height: 1.5; margin-bottom: 24px;">
-            These hand drawn stickers are scattered throughout the website symbolise features of Tutor the Nation, from
-            safeguarding
-            to confidence - and of course we have sticker Bridget.
-          </p>
+            <h4 class="" style="margin-bottom: 16px">
+              Stickers!
+            </h4>
+            <p style="font-size: 1.125rem; line-height: 1.5; margin-bottom: 24px;">
+              These hand drawn stickers are scattered throughout the website symbolise features of Tutor the Nation,
+              from
+              safeguarding
+              to confidence - and of course we have sticker Bridget.
+            </p>
           </div>
           <div style="height: 100%; width: 100%; background-color: #F7F2EE;"></div>
         </div>

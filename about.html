@@ -14,13 +14,23 @@
   <header>
     <aside></aside>
     <nav class="hflex">
-      <a href="index.html" class="hflex">
+      <a href="index.html" class="hflex" id="SB-logo">
         <img src="Images/logo_filled.svg" alt="sasha beattie logo" style="height: 40px">
       </a>
-      <div class="flex" style="height: 100%">
-        <a class="menu-links" style="text-decoration: underline" href="/about.html">About me</a>
-        <a class="menu-links" href="/work.html">Work</a>
+      <div class="flex hidden" style="height: 100%; margin-left: -12px;" id="mobile-menu-links">
+        <a class="menu-links mobile" href="/about.html">About me</a>
+        <a class="menu-links mobile" href="/work.html">Work</a>
       </div>
+      <div class="flex" style="height: 100%">
+        <a class="menu-links desktop" href="/about.html">About me</a>
+        <a class="menu-links desktop" href="/work.html">Work</a>
+      </div>
+      <button class="menu-button" id="menu-button" onclick="toggleMenu()">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+          <path d="M0 0h24v24H0V0z" fill="none" />
+          <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+        </svg>
+      </button>
     </nav>
   </header>
 
