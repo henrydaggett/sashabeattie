@@ -280,6 +280,7 @@ ul>a>div>p {
   padding-right: 32px;
   background-color: #FEA200;
   font-weight: bold;
+  font-size: 1.1rem;
   border: 2px solid black;
   color: black;
   display: flex;
@@ -291,7 +292,7 @@ ul>a>div>p {
 
 .main-button:hover {
   background-color: #2A7FD9;
-  color: black;
+  color: white;
 }
 
 .spinner {
