@@ -86,7 +86,7 @@ a:hover {
 
 @media screen and (max-width: 600px) {
   aside {
-    display: none;
+    display: none !important;
   }
   nav {
     padding-right: 12px;
@@ -329,6 +329,10 @@ ul>a>div>p {
   }
 }
 
+.about-mobile-footer {
+  display: none;
+}
+
 /* Mobile breakpoint (600px) */
 
 @media screen and (max-width: 600px) {
@@ -387,6 +391,12 @@ ul>a>div>p {
     right: 50px
   }
   
+  .green-smile {
+    top: -16px !important;
+    right: -16px;
+    height: 100px;
+  }
+  
   .spinner {
     height: 120px !important;
     bottom: 24px !important;
@@ -396,7 +406,7 @@ ul>a>div>p {
     margin-top: unset !important;
   }
   .desktop {
-    display: none;
+    display: none !important;
   }
   .menu-button {
     height: 40px;
@@ -415,7 +425,17 @@ ul>a>div>p {
   .menu-links {
     padding: 0 1rem;
     border-right: 2px solid black;
-    border-left: unset
+    font-size: 1.1rem;
+    border-left: unset;
+  }
+  .about-flex {
+    flex-direction: column !important;
+  }
+  .mobile-remove-border {
+    border: unset !important;
+  }
+  .about-mobile-footer {
+    display: block;
   }
 }
 

@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sasha Beattie's Portfolio</title>
   <link rel="stylesheet" href="home.css">
-  <link rel="stylesheet" href="about.css">
 </head>
 
 <body>
@@ -34,7 +33,7 @@
     </nav>
   </header>
 
-  <section class="flex" style="height: calc(100vh); background-color: #DD928A; padding-top: 52px;">
+  <section class="flex" style="min-height: calc(100vh); background-color: #DD928A; padding-top: 52px;">
     <aside class="vflex" style="flex-direction: column; flex-grow: 0">
       <div class="flex"
         style="flex-grow: 1; transform: rotate(270deg); -webkit-transform: rotate(270deg); align-items: center;">
@@ -44,15 +43,15 @@
       <div class="border-t" style="min-height: 136px; width: 100%"></div>
     </aside>
 
-    <article class="hflex">
-      <div class="border-r vflex" style="height: 100%; flex-grow: 2">
+    <article class="hflex about-flex">
+      <div class="border-r mobile-remove-border vflex" style="height: 100%; width: 100%; flex-grow: 2">
         <div class="flex" style="padding: 24px; width: 100%; flex-grow: 1">
           <div
-            style="position: relative; background-image: url('Images/About/smb.png'); background-position: center; background-repeat: no-repeat; background-size: cover; flex-grow: 1">
+            style="min-height: 50vh; position: relative; background-image: url('Images/About/smb.png'); background-position: center; background-repeat: no-repeat; background-size: cover; flex-grow: 1">
             <img class="green-smile" src="Images/Stickers/smile_green.svg" alt="Blue smile sticker"></img>
           </div>
         </div>
-        <footer class="cflex border-t" style="background-color: unset; flex-grow: 0; width: 100%">
+        <footer class="cflex border-t desktop" style="background-color: unset; flex-grow: 0; width: 100%">
           <div class="cflex" style="flex-direction: column">
             <h4>Say Hello!</h4>
             <a href="mailto:sashabeattie@gmail.com">sashabeattie@gmail.com</a>
@@ -73,15 +72,16 @@
               great appreciation for food, real and fake.
             </p>
 
-            <div class="flex" style="justify-content: center;">
-              <button class="main-button" style="margin-right: 16px; background-color: #2A7FD9; color: white"
+            <div class="flex" style="justify-content: center; flex-wrap: wrap; gap: 16px; margin-bottom: 32px;">
+              <button class="main-button" style="background-color: #2A7FD9; color: white;"
                 onclick="window.href='/work.html'">View my
                 work</button>
               <button class="main-button" style="background-color: #2A7FD9; color: white">Explore Hāpā</button>
             </div>
           </div>
         </article>
-        <footer class="cflex border-t" style="background-color: unset; flex-grow: 0; flex-shrink: 0; width: 100%">
+        <footer class="cflex border-t desktop"
+          style="background-color: unset; flex-grow: 0; flex-shrink: 0; width: 100%">
           <a href="https://www.linkedin.com/in/sasha-beattie/">LinkedIn</a>
         </footer>
       </section>
@@ -89,9 +89,9 @@
     </article>
   </section>
 
-  <!-- <footer style="background-color: #DD928A">
+  <footer class="about-mobile-footer border-t" style="background: #DD928A">
     <aside></aside>
-    <article class="cflex" style="min-width: calc(60% - 140px); flex-shrink: 0;">
+    <article class="cflex" style="flex-grow: 1">
       <div class="cflex" style="flex-direction: column">
         <h4>Say Hello!</h4>
         <a href="mailto:sashabeattie@gmail.com">sashabeattie@gmail.com</a>
@@ -100,7 +100,7 @@
     <article class="border-l cflex" style="flex-grow: 1;">
       <a href="https://www.linkedin.com/in/sasha-beattie/">LinkedIn</a>
     </article>
-  </footer> -->
+  </footer>
 
   <script src="navigation.js">
   </script>
