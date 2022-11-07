@@ -241,17 +241,20 @@ ul>a>div>p {
   height: 120px;
   position: absolute;
   top: 32px;
-  right: -80px;
+  right: -65px;
   transform: rotate(340deg);
   -webkit-transform: rotate(340deg);
 }
 
 .menu-links {
-  font-family: clearfacebold, serif;
-  font-size: 1.2rem;
+  font-family: assistant, sans serif;
+  font-weight: bold;
+  font-size: 1.1rem;
   text-decoration: none;
-  padding: 0 3rem;
-  border-left: 2px solid black;
+  padding: 0 1.5rem;
+  border: 2px solid black;
+  border-radius: 22px;
+  height: 36px;
   background-color: transparent;
   color: #030405;
   display: flex;
@@ -394,7 +397,7 @@ ul>a>div>p {
   }
   
   .green-smile {
-    top: -20px !important;
+    top: -4px !important;
     right: -10px;
     height: 100px;
   }
@@ -426,9 +429,10 @@ ul>a>div>p {
   }
   .menu-links {
     padding: 0 1rem;
-    border-right: 2px solid black;
+    border: 2px solid black;
+    border-radius: 22px;
     font-size: 1.1rem;
-    border-left: unset;
+    height: 32px
   }
   .about-flex {
     flex-direction: column !important;
@@ -454,9 +458,8 @@ ul>a>div>p {
   }
   
   .work-project-details {
-    padding: 24px !important;
+    padding: 0px 24px 24px 24px !important;
     max-width: 100% !important;
-    border-top: 2px solid black;
     border-right: unset !important;
   } 
   
