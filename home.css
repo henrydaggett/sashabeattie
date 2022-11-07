@@ -247,7 +247,7 @@ ul>a>div>p {
 }
 
 .menu-links {
-  font-family: 'Assistant', sans serif;
+  font-family: 'Assistant', sans-serif;
   font-weight: bold;
   font-size: 1.1rem;
   text-decoration: none;
@@ -398,7 +398,7 @@ ul>a>div>p {
   
   .green-smile {
     top: -8px !important;
-    right: -4px !important;
+    right: 4px !important;
     height: 100px;
   }
   
