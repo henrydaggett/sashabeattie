@@ -437,6 +437,12 @@ ul>a>div>p {
   .about-flex {
     flex-direction: column !important;
   }
+  .d50-m100 {
+    max-width: 100% !important;
+  }
+  .mobile-noflex {
+    display: block !important
+  }
   .mobile-remove-border {
     border: unset !important;
   }
@@ -532,4 +538,8 @@ ul>a>div>p {
 .space-0 {
   margin: 0;
   padding: 0;
+}
+
+.d50-m100 {
+  max-width: 50%;
 }
