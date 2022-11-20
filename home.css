@@ -322,8 +322,6 @@ ul>a>div>p {
   line-height: 1;
   font-weight: bold;
   font-size: 1.125;
-  margin-right: 8px;
-  margin-top: 32px;
 }
 
 @keyframes spin {
@@ -479,6 +477,10 @@ ul>a>div>p {
   .work-navigation-arrow {
     height: 40px !important;
   }
+  
+  .dp48-mp24 {
+    padding: 24px !important;
+  }
 }
 
 /* Utilities */
@@ -542,4 +544,8 @@ ul>a>div>p {
 
 .d50-m100 {
   max-width: 50%;
+}
+
+.dp48-mp24 {
+  padding: 48px;
 }
