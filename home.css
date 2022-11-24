@@ -48,7 +48,7 @@ picture {
   flex-grow: 5;
   flex-shrink: 0;
   background-image: url('Images/Home/tutor-the-nation-cover.png');
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   margin: 1rem;

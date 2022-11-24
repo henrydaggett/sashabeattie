@@ -7,6 +7,7 @@ links[0].onmouseover = () => {
 }
 links[1].onmouseover = () => {
   img.style.backgroundImage = 'url("Images/Home/drew_cover.png")'
+  img.style.backgroundColor = ''
 }
 links[2].onmouseover = () => {
   img.style.backgroundImage = 'url("Images/Home/danclairs-cover.png")'
@@ -14,4 +15,5 @@ links[2].onmouseover = () => {
 }
 links[3].onmouseover = () => {
   img.style.backgroundImage = 'url("Images/Home/amas_cover.png")'
+  img.style.backgroundColor = '#EF856F'
 }
