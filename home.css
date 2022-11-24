@@ -253,6 +253,7 @@ ul>a>div>p {
   font-size: 1.1rem;
   text-decoration: none;
   padding: 0 1.5rem;
+  padding-bottom: 3px;
   border: 2px solid black;
   border-radius: 22px;
   height: 36px;
