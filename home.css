@@ -267,7 +267,7 @@ ul>a>div>p {
 }
 
 .menu-links:hover {
-  background-color: #9B5309;
+  background-color: #9B5309 !important;
   color: white;
 }
 
