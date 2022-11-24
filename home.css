@@ -79,9 +79,6 @@ a:hover {
     font-size: 6.5vw !important;
     width: 90% !important;
   }
-  #project-container {
-    width: 100% !important
-  }
 }
 
 @media screen and (max-width: 600px) {
