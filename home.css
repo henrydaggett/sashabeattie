@@ -212,6 +212,10 @@ ul>a>div>p {
   color: black;
 }
 
+.all-projects:hover {
+  background-color: #2A7FD9 !important;
+}
+
 /* Home page stickers */
 
 .enjoy-green {
@@ -263,8 +267,8 @@ ul>a>div>p {
 }
 
 .menu-links:hover {
-  background-color: #DD928A;
-  color: black;
+  background-color: #9B5309;
+  color: white;
 }
 
 .menu-button {
