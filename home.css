@@ -337,6 +337,15 @@ ul>a>div>p {
   display: none;
 }
 
+.ama-image {
+  flex: 1 1 0;
+  width: calc(100% / 3);
+}
+
+.ama-spacer {
+  flex: 1 0 0;
+}
+
 /* Mobile breakpoint (600px) */
 
 @media screen and (max-width: 600px) {
@@ -482,6 +491,14 @@ ul>a>div>p {
   
   .dp48-mp24 {
     padding: 24px !important;
+  }
+  
+  .ama-image {
+    width: 100% !important;
+  }
+  
+  .ama-spacer {
+    display: none !important;
   }
 }
 
