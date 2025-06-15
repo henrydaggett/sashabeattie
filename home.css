@@ -282,8 +282,7 @@ ul>a>div>p {
   font-size: 1.1rem;
   line-height: 1;
   text-decoration: none;
-  padding: 0.875rem 1rem;
-  /* padding-bottom: 3px; */
+  padding: 0.875rem 1.5rem;
   border-radius: 22px;
   background-color: transparent;
   color: var(--text);
