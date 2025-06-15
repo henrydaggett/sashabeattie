@@ -4,6 +4,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root {
+  --starfish: #2A7FD9;
+  --shamrock: #47B490;
+  --kabocha: #FEA200;
+  --spiced-pink: #DD928A;
+  --haupia: #9A5309;
+  --oat-milk: #F0EDE6;
+  --orca: #030405;
+  --alpine: #0A1813;
+  --coffee: #342100;
+  --dark-spice: #2E100D;
+  --midnight-sky: #061220;
+  --shoji: #E0E2DA;
+  
+  --bg: var(--oat-milk);
+  --border-color: var(--orca);
+}
+
 html {
   overflow: hidden;
   height: 100%;
@@ -23,7 +41,7 @@ header {
   height: 52px;
   display: flex;
   box-sizing: border-box;
-  background-color: white;
+  backdrop-filter: blur(5px)
   position: fixed;
   width: 100%;
   z-index: 100000;
