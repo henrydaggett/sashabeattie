@@ -288,24 +288,19 @@ ul>a>div>p {
   color: var(--text);
 }
 
-.home-active {
+.menu-home.active, .menu-home:hover {
   background-color: var(--starfish);
   color: var(--oat-milk);
 }
 
-.about-active {
+.menu-about.active, .menu-about:hover {
   background-color: var(--shamrock);
   color: var(--oat-milk);
 }
 
-.work-active {
+.menu-work.active, .menu-work:hover {
   background-color: var(--kabocha);
   color: var(--oat-milk);
-}
-
-.menu-links:hover {
-  background-color: #9B5309 !important;
-  color: white;
 }
 
 .menu-button {
