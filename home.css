@@ -20,6 +20,7 @@
   
   --bg: var(--oat-milk);
   --border-color: var(--orca);
+  --text: var(--orca);
 }
 
 html {
@@ -266,21 +267,25 @@ ul>a>div>p {
   -webkit-transform: rotate(340deg);
 }
 
+.menu-bar {
+  background-color: var(--oat-milk);
+  padding: 6px;
+  border-radius: 28px;
+  display: flex;
+  gap: 2px;
+}
+
 .menu-links {
   font-family: 'Assistant', sans-serif;
   font-weight: bold;
   font-size: 1.1rem;
+  line-height: 1;
   text-decoration: none;
-  padding: 0 1.5rem;
+  padding: 0.875rem 1rem;
   padding-bottom: 3px;
-  border: 2px solid black;
   border-radius: 22px;
-  height: 36px;
   background-color: transparent;
-  color: #030405;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  color: var(--text);
 }
 
 .menu-links:hover {
