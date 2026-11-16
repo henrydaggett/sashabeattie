@@ -456,9 +456,6 @@ ul>a>div>p {
   .desktop {
     display: none !important;
   }
-  .menu-bar {
-    display: none;
-  }
   .menu-button {
     margin-left: auto;
     height: 40px;
@@ -482,6 +479,10 @@ ul>a>div>p {
     height: 32px;
     display: inline-flex;
     align-items: center;
+  }
+  .menu-bar .menu-links {
+    border: none;
+    padding: 0 0.875rem;
   }
   .about-flex {
     flex-direction: column !important;
