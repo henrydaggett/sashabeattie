@@ -303,15 +303,6 @@ ul>a>div>p {
   color: var(--oat-milk);
 }
 
-.menu-button {
-  display: none
-}
-
-.menu-button:hover {
-  background-color: rgba(0, 0, 0, 0.1) ;
-  color: white;
-}
-
 .main-button {
   height: 48px;
   border-radius: 48px;
@@ -455,21 +446,6 @@ ul>a>div>p {
   }
   .desktop {
     display: none !important;
-  }
-  .menu-button {
-    margin-left: auto;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    background-color: transparent; 
-    color: black; 
-    border: none;
-    display: flex !important;
-    align-self: center;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition-duration: 0.4s;
   }
   .menu-links {
     padding: 0 1rem;
